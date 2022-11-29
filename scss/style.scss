@@ -239,6 +239,8 @@ a {
             width: 320px;
             margin: 20px;
             height: 884px;
+            margin-right: auto;
+            margin-left: auto;
         }
     }
     &__wrapper {
@@ -298,8 +300,6 @@ a {
             margin: 20px;
             margin-top: 12px;
             flex-wrap: nowrap;
-            margin-right: auto;
-            margin-left: auto;
         }
     }
     &__label {
@@ -478,6 +478,7 @@ a {
             height: 683px;
             flex-wrap: nowrap;
             padding: 32px 20px;
+            width: 320px;
             margin-right: auto;
             margin-left: auto;
         }
