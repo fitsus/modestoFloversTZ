@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modesto Flowers TZ</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="header">
+        <header class="container header-wrapper">
+            <a href="#" class="header__logo"><img src="./files/img/logo.png" alt="Modesto Flowers Logo"></a>
+            <nav class="menu">
+                <a href="#" class="menu__item">Магазины</a>
+                <a href="#" class="menu__item">Контакты</a>
+                <a href="#" class="menu__item">О нас</a>
+            </nav>
+            <div class="header__wrapper">
+                <a href="tel:+36787547894" class="header__tel">+3 67 8754 7894</a>
+                <a href="#" class="header__language-changer">Ru <span>Eng</span></a>
+                <a href="#" class="header__button">Войти</a>
+                <a href="#" class="header__button header__button_registration">Создать аккаунт</a>
+            </div>
+            <button class="burger"></button>
+        </header>
+        <section class="promo">
+            <h1 class="promo__title">Мы будем рады сотрудничать с вами на платформе 'Международной цветочной онлайн-площадки'!</h1>
+            <p class="promo__content">Присоединяйтесь к нам и начните получать доход с бизнеса в первый месяц регистрации! </p>
+            <div class="btn-container">
+                <button class="btn">Начать покупать</button>
+                <button class="btn btn_grey">Начать продавать</button>
+            </div>
+        </section>
+    </section>
+    <main class="main">
+        <section class="section-form">
+            <div class="section-form__container">
+                <div class="section-form__wrapper">
+                    <h2 class="section-form__title">Заполните форму и начните развивать свой бизнес прямо сейчас!</h2>
+                    <p class="section-form__content">Регистрация на нашем сайте занимает несколько минут, просим ответить на все вопросы полностью и корректно! После подтверждения регистрации вы попадёте в систему, где большинство процессов автоматизированы, что сэкономит ваше время и деньги!</p>
+                </div>
+                <form action="#" class="section-form__form form_active">
+                    <label for="name" class="section-form__label">Ваше имя</label>
+                    <input type="text" id="name" name="name" required class="section-form__input" placeholder="Фролова Александра Васильевна">
+                    <label for="company" class="section-form__label">Название Компании</label>
+                    <input type="text" id="company" name="company" required class="section-form__input" placeholder="ООО Атлантика">
+                    <label for="email" class="section-form__label">E-mail</label>
+                    <input type="text" id="email" name="email" required class="section-form__input" placeholder="flolovaalexa@com.ru">
+                    <label for="phone" class="section-form__label">Номер телефона</label>
+                    <input type="text" id="phone" name="phone" required class="section-form__input" placeholder="+7 (XXX) - XXX XX XX">
+                    <label for="promocode" class="section-form__label">Промокод</label>
+                    <input type="text" id="promocode" name="promocode" class="section-form__input" placeholder="HGF864">
+                    <input type="button" value="Далее" data-next class="btn section-form__btn">
+                </form>
+                <form action="#" class="section-form__form">
+                    <label for="password" class="section-form__label">Пароль</label>
+                    <input type="password" id="password" name="password" required class="section-form__input" placeholder="Создайте пароль">
+                    <label for="passwordVerification" class="section-form__label">Подтвердите пароль</label>
+                    <input type="password" id="passwordVerification" name="passwordVerification" required class="section-form__input" placeholder="Повторите пароль">
+                    <div class="section-form__captcha"> <!-- должна приходить с бэка -->
+                        <img src="./files/img/Форма/Frame 2129.png" alt="captcha">
+                    </div>
+                    <label for="captcha" class="section-form__label">Введите символы из картинки</label>
+                    <input type="text" id="captcha" name="captcha" required class="section-form__input" placeholder="Код из картинки">
+                    <div class="section-form__btn-container">
+                        <input type="button" value="Назад" data-back class="btn section-form__btn section-form__btn_grey">
+                        <input type="button" value="Подтвердить" class="btn section-form__btn">
+                    </div>
+                    <input type="checkbox" id="checkbox" name="checkbox" required class="section-form__checkbox">
+                    <label for="checkbox" class="section-form__label section-form__label-checkbox">Я даю согласие на обработку моих персональных данных и правовых документов</label>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer__content-wrapper">
+                <h3 class="footer-title">Наши офисы</h3>
+                <p class="footer__content">Московский офис<br>
+                    +7 455 267-89-07<br>
+                    Берсеневский пер., д. 56, стр. 4,<br>
+                    6-й эт., Москва, 567754</p>
+                <p class="footer__content">
+                    Ростовский офис<br>
+                    +7 878 888-01-67<br>
+                    Буденовский пр-т, д. 84, 6-й эт.,<br>
+                    Ростов-на-Дону, 679965</p>
+            </div>
+            <div class="footer__social">
+                <h3 class="footer-title">Мы в соц сетях</h3>
+                <a href="#" class="footer__social-link">Instagram</a>
+                <a href="#" class="footer__social-link">Facebook</a>
+            </div>
+            <div class="footer__contacts">
+                <h3 class="footer-title">Свяжитесь с нами</h3>
+                <a href="tel:+36787547894" class="footer__contacts-tel">+3 67 8754 7894</a>
+                <a href="mailto:mflowers@flo.com" class="footer__contacts-link">mflowers@flo.com</a>
+                <button class="btn footer__contacts-btn"><span>Написать</span></button>
+            </div>
+            <p class="footer__copyright">Авторские права 2008-2022 M-flowers.com</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
