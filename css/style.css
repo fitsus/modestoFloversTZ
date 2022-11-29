@@ -426,6 +426,8 @@ a {
     margin: 20px;
     margin-top: 12px;
     flex-wrap: nowrap;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 .section-form__label {
@@ -628,6 +630,8 @@ a {
     height: 683px;
     flex-wrap: nowrap;
     padding: 32px 20px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 .footer-title {
