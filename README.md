@@ -17,4 +17,4 @@ What I realised:
 <li>Форма с кастомными чекбоксами и простым скриптом для демонстрации второй страницы форма</li>
 
 
-<h2>Ссылка: fitsus.ru/modestoFlowersTZ/</h2>
+<h2>Ссылка/Link: <a href="http://www.fitsus.ru/modestoFlowersTZ/">push</a></h2>
